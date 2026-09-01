@@ -571,6 +571,19 @@ a.project-card:hover {
   margin-top: 4px;
 }
 
+.contact-success h3 {
+  margin: 0 0 8px;
+}
+.contact-success p {
+  color: var(--text-muted);
+  margin: 0 0 16px;
+}
+.contact-error {
+  font-size: 14px;
+  color: #b91c1c;
+  margin: 0;
+}
+
 @media (max-width: 860px) {
   .contact-grid {
     grid-template-columns: 1fr;

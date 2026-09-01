@@ -11,6 +11,18 @@
     <title>BlueWave IT Solutions</title>
   </head>
   <body>
+    <!--
+      Static mirror of the consultation form below, for Netlify's build-time
+      form detector (it only parses plain HTML, not the React-rendered form).
+      Keep the field names in sync with src/components/Contact.tsx.
+    -->
+    <form name="consultation" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="company" />
+      <textarea name="message"></textarea>
+      <input type="text" name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
